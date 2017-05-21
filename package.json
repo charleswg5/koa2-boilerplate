@@ -1,0 +1,32 @@
+{
+  "name": "koa2-boilerplate",
+  "version": "0.0.1",
+  "description": "koa2 boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node app.js",
+    "server": "nodemon --ignore static/ --ignore test/ app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charleswg5/koa2-boilerplate.git"
+  },
+  "author": "charleswg",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.0.0",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.2",
+    "pug": "^2.0.0-rc.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}
